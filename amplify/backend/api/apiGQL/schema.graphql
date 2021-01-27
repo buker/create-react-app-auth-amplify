@@ -1,0 +1,9 @@
+type Absence @model {
+  id: ID!
+  absenceType: String!
+  approved: Boolean!
+  who: String!
+  approver: String!
+  from: AWSTime!
+  to: AWSTime!
+}
